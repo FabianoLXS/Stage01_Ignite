@@ -9,9 +9,10 @@ export function Post(){
             className={styles.avatar}
             src="https://github.com/fabianolxs.png"
           />
-          <div className={styles.authorInfo}></div>
+          <div className={styles.authorInfo}>
           <strong>Fabiano Santos</strong>
           <span>Web Developer</span>
+          </div>
         </div>
         <time title="05 de Maio às 19h00" dateTime="2024-05-05 19:00:05">
           Publicado há 1h
@@ -24,16 +25,17 @@ export function Post(){
           no NLW return, evento da Rocketseat. O nome do projeto🚀
         </p>
         <p>
-          👉{" "}
+          👉{' '}
           <a href="https://github.com/fabianolxs">
             https://github.com/fabianolxs
           </a>
         </p>
         <p>
-          <a href="">#novoprojeto #nlw #rocketseat</a>
+          <a href="">#novoprojeto</a>{' '}
+          <a href="">#nlw</a>{' '}
+          <a href="">#rocketseat</a>{' '}
         </p>
       </div>
     </article>
   )
-
 }
