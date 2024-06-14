@@ -1,15 +1,13 @@
-import { Comment } from './Comment'
-import { Avatar } from './Avatar'
-import styles from './Post.module.css'
+import { Comment } from "./Comment"
+import { Avatar } from "./Avatar"
+import styles from "./Post.module.css"
 
-export function Post(){
+export function Post(props) {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <Avatar
-            src="https://github.com/fabianolxs.png"
-          />
+          <Avatar src={props.author.avatarUrl} />
           <div className={styles.authorInfo}>
             <strong>Fabiano Santos</strong>
             <span>Web Developer</span>
@@ -19,9 +17,7 @@ export function Post(){
           Publicado há 1h
         </time>
       </header>
-      <div className={styles.content}>
-        
-      </div>
+      <div className={styles.content}></div>
 
       <form className={styles.commentForm}>
         <strong>Deixe seu feedback</strong>

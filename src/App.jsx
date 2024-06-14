@@ -14,13 +14,13 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/fabianolxs.png'
-      name: 'Fabiano Xavier'
+      avatarUrl: 'https://github.com/fabianolxs.png',
+      name: 'Fabiano Xavier',
       role: 'Product Manager'
     },
     content: [
-      {type: 'paragraph', content: 'Fala Galera 👋'}
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW return, evento da Rocketseat. O nome do projeto🚀'}
+      {type: 'paragraph', content: 'Fala Galera 👋'},
+      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW return, evento da Rocketseat. O nome do projeto🚀'},
     
           '👉{" "} <a href="https://github.com/fabianolxs"> https://github.com/fabianolxs </a>',
                
